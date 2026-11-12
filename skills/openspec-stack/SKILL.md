@@ -2,6 +2,7 @@
 name: openspec-stack
 description: Build several OpenSpec changes in parallel as stacked branches, and land them in order on main or a release branch. Each change gets its own git worktree, its own agent and its own pull request. A helper script commits each proposal on the trunk and cuts each change's branch from the change it builds on. It opens each PR against that change and links the chain as a GitHub stacked pull request. After merges, it archives the changes in merge order, moves the open ones onto the trunk, and removes the landed worktrees and branches. Use it when the user wants to split work into several OpenSpec changes, build changes in parallel or in worktrees, or stack PRs. Use it too when they hand a change to another agent or work against a release branch. Use it when they ask where their changes stand or need a merged change archived, even if they never say "stack". It wraps /opsx:propose, /opsx:apply and /opsx:archive; it does not replace them.
 compatibility: Needs git and the OpenSpec CLI. Pull requests need the GitHub CLI (gh); linked stacks need its gh-stack extension.
+license: MIT
 ---
 
 # OpenSpec stack

@@ -48,3 +48,7 @@ It works the same way against a release branch such as `release/1.2`.
 **Needs:** git and the [OpenSpec CLI](https://github.com/Fission-AI/OpenSpec). Opening pull requests needs the GitHub CLI (`gh`), and linking them as a stack needs its [gh-stack](https://github.com/github/gh-stack) extension (`gh extension install github/gh-stack`).
 
 **Use it:** ask your agent to split work into several OpenSpec changes, to stack the pull requests, or to archive a change whose pull request merged. In Claude Code you can also type `/openspec-stack`. The helper script runs on its own too: `skills/openspec-stack/scripts/stack.sh help` lists its commands.
+
+## License
+
+MIT. See [LICENSE](LICENSE): use, change and share these skills freely, keeping the copyright notice.
